@@ -1,0 +1,83 @@
+body {
+    background-color: #f3f6fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #dde9f6;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    margin-top: 0;
+}
+
+.player-list {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+
+.player-list ol {
+    padding-left: 20px;
+}
+
+.player-list li {
+    margin-bottom: 40px;
+    list-style-position: inside;
+}
+
+.player-list img {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.video-section {
+    background-color: #e6f2ff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tableau-container {
+  margin: 40px auto;
+  max-width: 100%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.tableau-container iframe {
+  width: 100%;
+  height: 600px;
+}
+@media (max-width: 768px) {
+  .tableau-container iframe {
+    height: 400px;
+  }
+}
